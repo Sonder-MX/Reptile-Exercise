@@ -1,8 +1,5 @@
 # Reptile Exercise
 
-文件夹说明
+## [1.多线程王者荣耀壁纸下载](./honor_of_kings.py)
 
-|  文件夹   |      作用      |
-| :-------: | :------------: |
-| resources | 存放下载的资源 |
-|   utils   |  辅助 py 文件  |
+- [官网地址](https://pvp.qq.com/web201605/wallpaper.shtml)
