@@ -6,7 +6,7 @@ from urllib import parse, request
 
 import requests
 
-from utils.rand_proxy import RandUA
+from my_utils import RandUA
 
 UA = RandUA()
 IMG_FOLDER = "./resources/honor_of_kings/"

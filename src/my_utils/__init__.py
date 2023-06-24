@@ -2,7 +2,6 @@
 """
 @Date    : 2023/03/01 00:01:57
 @Author  : Sonder-MX
-@File    : rand_ua.py
 @Version : 0.0.1
 """
 import random
@@ -23,7 +22,6 @@ def get_ua() -> List:
 
 
 class RandProxy:
-    """付费的太贵，免费的不能用。。。。。"""
 
     def __init__(self) -> None:
         pass
@@ -57,8 +55,7 @@ class RandUA:
             'User-Agent': self.rand_ua(),
             'Accept': '*/*',
             'Accept-Encoding': 'gzip, deflate, br',
-            'Accept-Language':
-            'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+            'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
             'Connection': 'keep-alive',
             **kwargs
         }
